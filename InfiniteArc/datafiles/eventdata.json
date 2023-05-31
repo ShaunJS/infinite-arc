@@ -1,0 +1,351 @@
+{
+	"gameoverevents" :
+	[
+		{
+			"title" : "The Artifact",
+			"image" : 0,
+			"description" : "The artifact looms before you, offering escape from this timeline and a chance to try again. To do better. To save humanity elsewhere, if it cannot be saved here.",
+			"responses" : ["Activate the Artifact.", "Step away"],
+			"resolutions" : [10,-1]
+		},
+		{
+			"title" : "Starvation",
+			"image" : 0,
+			"description" : "Out of supplies, there is only so far you can get before your frail human body succumbs. With what little strength you have left, you walk towards the Artifact. Defeated and with no choice, you can only hope to do better next time.",
+			"responses" : ["Activate the Artifact."],
+			"resolutions" : [10]
+		},
+		{
+			"title" : "Not today",
+			"image" : 0,
+			"description" : "As the ship's hull fractures around you, sucking what remaining supplies you have into the endless void, you crawl desperately towards the artifact. In these moments you are gripped with real fear, for if the Artifact slips from your reach it is then you are truly doomed.",
+			"responses" : ["Activate the Artifact."],
+			"resolutions" : [10]
+		},
+		{
+			"title" : "Failure",
+			"image" : 0,
+			"description" : "With every colonist lost, you are all that remains of humanity. This timeline is a dead end for the human race, so it's time to try a new one. The Artifact stands patiently.",
+			"responses" : ["Activate the Artifact."],
+			"resolutions" : [10]
+		},
+		{
+			"title" : "Adrift",
+			"image" : 0,
+			"description" : "You are left stranded in the vastness of space. You take the time to stare out across the void and consider the enormity of the struggle you face. Do whatever you wish with what's left of this doomed timeline. The artifact glows brightly in the hangar.",
+			"responses" : ["Stare into the void"],
+			"resolutions" : [-1]
+		},
+		{
+			"title" : "Visions of the End",
+			"image" : 0,
+			"description" : "Bleeding and in agony, you hobble through the corridors of the ship toward the Artifact. As the light begins to fade from your eyes you catch a brief glimpse of the eternal nothingness before a blinding light steals you away, to a place where you might avert whatever lead you to this gruesome end.",
+			"responses" : ["Activate the Artifact."],
+			"resolutions" : [10]
+		},
+		{
+			"title" : "What the!?",
+			"image" : 0,
+			"description" : "Out of nowhere, a ship that appears identical to yours emerges and begins firing on you immediately. You are taken completely by surprise and find yourself utterly defenseless. You reach for the Artifact in desperation and just as its power bathes the room in light, you realize that something about this situation feels darkly familiar.",
+			"responses" : ["Activate the Artifact."],
+			"resolutions" : [24]
+		},
+
+	],
+	"settleevents" :
+	[
+		{
+			"title" : "Eden",
+			"image" : 0,
+			"description" : "As you bring the ship through the clouds of humanity's new home, your jaw drops as you see what you had only ever dreamed of. A beautiful, earth-like world, green and luscious. Upon landing you take a moment to breathe in the fresh air of your new home before revive the remaining colonists. Society will take time to rebuild, making what use you can of the supplies and technology you brought with you. For now though, humanity is saved. Several years later the Artifact is now nothing but a danger, and you decide to cast it into the system's star. As you watch the artifact drift towards the sun, it begins to emit a pale glow and a grim horror dawns upon you.",
+			"responses" : ["No..."],
+			"resolutions" : [10]
+		},
+		{
+			"title" : "Awkward Earth",
+			"image" : 0,
+			"description" : "At long last your mission draws to its end, as you settle on a planet remarkably similar to earth. Things are not quite the same however. Gravity is very strong and the colonists struggle to adapt to the new atmospheric conditions, as well as dealing with dangerous fauna and other hazards. But humanity is tenacious and persists. You can't help but wonder if a better future awaits somewhere among the stars. Something you missed. You ponder these thoughts while staring into Artifact and before you know it the choice is made for you.",
+			"responses" : ["We can do better."],
+			"resolutions" : [10]
+		},
+		{
+			"title" : "Xenomorphic Nightmare",
+			"image" : 0,
+			"description" : "At first your new home doesn't seem too bad, the trees and grass are a different colour than you're used to but if anything they stand symbolic of humanity's newest chapter. Until They came. One by one your colonists are picked off by lurking, ever changing Things. They consume your people and take on their forms, nobody can trust anyone and it is only a matter of time before all of you will become Them. This has to be stopped. It has to be undone. We have to go back!",
+			"responses" : ["It is the only way!"],
+			"resolutions" : [10]
+		},
+		{
+			"title" : "Arctic wasteland",
+			"image" : 0,
+			"description" : "The planet is bathed in a permanent winter. Snow, ice and rock is all there is to see. Your people battle against blizzards and a scarcity of resources for years to come, but they persevere. As you age you begin to wonder if you had settled too soon, if things couldn't be better, if the grass could not literally be greener.",
+			"responses" : ["I miss Summer."],
+			"resolutions" : [10]
+		},
+		{
+			"title" : "Barren wasteland",
+			"image" : 0,
+			"description" : "The planet is breathable, temperate, and utterly barren. Your people come to rely upon moisture farms and very scarce resources. As you age you begin to wonder if you had settled too soon, if things couldn't be better, if the grass could not literally be greener.",
+			"responses" : ["I miss grass."],
+			"resolutions" : [10]
+		},
+	],
+	"planetevents" :
+	[
+		{
+			"title" : "Potential Planet",
+			"image" : 0,
+			"description" : "After a long journey you arrive at a planet that just might make a new home for earth, scanners indicate little other than the atmosphere is breathable. To know more you will need to send a probe to investigate.",
+			"responses" : ["We can bear the rigors of travel no further, we settle here.","Launch a probe (costs 1 probe)","Move on"],
+			"resolutions" : [15,16,17]
+		},
+		{
+			"title" : "Earth-like Planet",
+			"image" : 0,
+			"description" : "After a long journey you arrive at a planet that just might make a new home for earth. The readings indicate the planet would be highly suitable for human life and poses no immediate threats. Just how perfect this home is remains to be seen, but is probably worth settling here!",
+			"responses" : ["Settle here.","Move on"],
+			"resolutions" : [18,17]
+		},
+		{
+			"title" : "Lifeforms",
+			"image" : 0,
+			"description" : "After a long journey you arrive at a planet that just might make a new home for earth. The readings indicate the planet would be highly suitable for human life but there are also unusual bio signatures that give you some concern.",
+			"responses" : ["Settle here.","Move on"],
+			"resolutions" : [19,17]
+		},
+		{
+			"title" : "Arctic Planet",
+			"image" : 0,
+			"description" : "After a long journey you arrive at a planet that just might make a new home for earth. The readings indicate the planet would support human life but is potentially hazardous and low on resources.",
+			"responses" : ["Settle here.","Move on"],
+			"resolutions" : [20,17]
+		},
+		{
+			"title" : "Barren Planet",
+			"image" : 0,
+			"description" : "After a long journey you arrive at a planet that just might make a new home for earth. The readings indicate the planet would support human life but is potentially hazardous and low on resources.",
+			"responses" : ["Settle here.","Move on"],
+			"resolutions" : [21,17]
+		}
+	],
+	"basicevents" :
+	[
+		{
+			"title" : "Abandoned Station",
+			"image" : 0,
+			"description" : "As you arrive in this system a faint energy signal is given off by what appears to be some sort of alien structure. A former space station perhaps? There could be supplies or other useful things on board, what would you like to do?",
+			"responses" : ["Board and search the station","Launch a probe (costs 1 probe)","Harvest materials from a distance with weapons","Leave the ominous structure alone"],
+			"resolutions" : [6,7,8,9]
+		},
+		{
+			"title" : "Toxic Planet",
+			"image" : 0,
+			"description" : "You arrive in a system containing a large, forested planet with some immediate promise, unfortunately data from the scanners suggests that despite the presence of much flora the atmosphere would be highly toxic to humans. You might however be able to harvest some food at a safe distance.",
+			"responses" : ["Harvest any useful food supplies and move on.", "Perhaps we could find a fuel source here instead..."],
+			"resolutions" : [5,4]
+		},
+		{
+			"title" : "Incoming asteroid",
+			"image" : 0,
+			"description" : "A huge rock has entered scanner range. It is moving at incredible speed and the autopilot is unable to completely avoid a collision, but you might be able to mitigate and redirect the damage by angling the ship.",
+			"responses" : ["Angle towards the cryostasis chambers", "Angle towards the weapons and fire!", "Angle towards the engines"],
+			"resolutions" : [1,2,3]
+		},
+		{
+			"title" : "Planetary Debris",
+			"image" : 0,
+			"description" : "The ship slows to system speeds as scans had detected a potential earth-like planet, but you arrive only into a vast debris field of molten rock where the planet once was.",
+			"responses" : ["Evasive action!"],
+			"resolutions" : [11]
+		},
+		{
+			"title" : "The Great Machine",
+			"image" : 0,
+			"description" : "A gargantuan mega-structure stands alone in the void of space far from any planetary systems or solar bodies. Several enormous rings form a tunnel. From each ring flails two or three enormous mechanical arms, is this some sort of alien repair station?",
+			"responses" : ["Pilot the ship directly through the rings","Keep an extreme distance."],
+			"resolutions" : [12,9]
+		},
+		{
+			"title" : "Black Hole",
+			"image" : 0,
+			"description" : "Scanners indicate a previously undetected black hole lies dangerously close to your current course, in order to avoid being dragged beyond the point of no return you will need to free up at least 5 spaces of cargo on board the ship within the next few light years of travel. (Use the Manage Ship button after this event)",
+			"responses" : ["Ok"],
+			"resolutions" : [13]
+		},
+		{
+			"title" : "Rich asteroid belt",
+			"image" : 0,
+			"description" : "You detect a gas giant in a nearby system that is home to a mineral dense asteroid belt. Harvesting materials from the belt could be risky but rewarding work.",
+			"responses" : ["Attempt to harvest materials.","Push on."],
+			"resolutions" : [22,0]
+		},
+		{
+			"title" : "Twin ship",
+			"image" : 0,
+			"description" : "You encounter a ship that reads to be almost identical to your own, is this some kind of trap?",
+			"responses" : ["Fire on it! Aim for the warp core!","Get us out of here. Now."],
+			"resolutions" : [23,0]
+		},
+	],
+	"resolutionevents" :
+	[
+		{
+			"title" : "Continue on...",
+			"image" : 0,
+			"description" : "You continue on your journey.",
+			"responses" : ["Ok"],
+			"resolutions" : [-1]
+		},
+		{
+			"title" : "Collision",
+			"image" : 0,
+			"description" : "The hull plating & shields mitigate what they can as the ship shakes from the collision. The repair systems seal any major breaches and a damage report is produced.",
+			"responses" : ["Continue"],
+			"resolutions" : [-1]
+		},
+		{
+			"title" : "Smithereens!",
+			"image" : 0,
+			"description" : "You round the ship and fire all weapons. You have just enough power to shatter the asteroid before it impacts.",
+			"responses" : ["Hooray!"],
+			"resolutions" : [-1]
+		},
+		{
+			"title" : "Collision",
+			"image" : 0,
+			"description" : "The weapons were not strong enough to destroy the projectile. Perhaps next time. The hull plating mitigates what it can as the ship shakes from the collision. Automatic repair systems do what they can. A damage report is produced.",
+			"responses" : ["Continue"],
+			"resolutions" : [-1]
+		},
+		{
+			"title" : "Resilient Flora",
+			"image" : 0,
+			"description" : "The hardy plants that have thrived in this harsh environment can be broken down into substances that will power the warp drive",
+			"responses" : ["Great!"],
+			"resolutions" : [-1],
+			"loot": ["fuel"]
+		},
+		{
+			"title" : "Nutrient Rich",
+			"image" : 0,
+			"description" : "The hardy plants that have thrived in this harsh environment are highly nutritious!",
+			"responses" : ["Great!"],
+			"resolutions" : [-1],
+			"loot": ["food"]
+		},
+
+		{
+			"title" : "Forgotten relic",
+			"image" : 0,
+			"description" : "The station is eerily quiet, whatever purpose it once served it now stands silently empty and alone in this strange system. You aren't able to make much of the technology, except for finding some fuel compatible with the warp drive.",
+			"responses" : ["Return to the ship"],
+			"resolutions" : [-1],
+			"loot": ["fuel"]
+		},
+
+		{
+			"title" : "Terror",
+			"image" : 0,
+			"description" : "The station is eerily quiet, until it is not. You are assaulted by horrifying creatures that defy form and description and you narrowly escape with your life. As you clutch your wounds and try to erase the image of the creatures from your mind, you eye the Artifact thoughtfully.",
+			"responses" : ["That was close."],
+			"resolutions" : [-1],
+		},
+
+		{
+			"title" : "Abandoned technology",
+			"image" : 0,
+			"description" : "The probe detects no lifeforms, but does lead you to some serviceable weaponry and materials that you are able to carefully harvest for your own use.",
+			"responses" : ["Continue"],
+			"resolutions" : [-1],
+			"loot": ["fuel","materials","basiclaser"]
+		},
+		{
+			"title" : "Continue on...",
+			"image" : 0,
+			"description" : "You leave the mysterious structure behind, where it can pose no risk to the mission.",
+			"responses" : ["Ok"],
+			"resolutions" : [-1]
+		},
+		{
+			"title" : "Harvesting scrap",
+			"image" : 0,
+			"description" : "Your lasers are able to carefully cut up some materials for you to harvest",
+			"responses" : ["Continue"],
+			"resolutions" : [-1],
+			"loot": ["materials","materials"]
+		},
+		{
+			"title" : "Ineffective tools",
+			"image" : 0,
+			"description" : "You lack enough precision weaponry to gather much from this complex structure.",
+			"responses" : ["Continue"],
+			"resolutions" : [-1]
+		},
+		{
+			"title" : "Evasive action!",
+			"image" : 0,
+			"description" : "Your excellent piloting skills (and powerful thrusters) managed to save you from any damage, this time.",
+			"responses" : ["Phew!"],
+			"resolutions" : [-1]
+		},
+		{
+			"title" : "Disassembly",
+			"image" : 0,
+			"description" : "As you pass through the rings a pale blue beam passes over the ship, as if analyzing its condition. After a moment there are shakes and bangs as you feel the arms colliding with the ship. The machine arms are tearing at the ships hull, disassembling it for scrap!",
+			"responses" : ["Oh god, the Artifact! THE ARTIFACT!"],
+			"resolutions" : [-1]
+		},
+		{
+			"title" : "Context Sensitive Repair",
+			"image" : 0,
+			"description" : "As you pass through the rings a pale blue beam passes over the ship, as if analyzing its condition. After a moment there are shakes and bangs as you feel the arms colliding with the ship. You begin to reach for the Artifact, but then you realize they aren't damaging the ship, but repairing it!",
+			"responses" : ["What a technological wonder."],
+			"resolutions" : [-1]
+		},
+		{
+			"title" : "Black Hole",
+			"image" : 0,
+			"description" : "You attempt to navigate around the black hole...",
+			"responses" : ["Here goes nothing!"],
+			"resolutions" : [14]
+		},
+		{
+			"title" : "Black Hole",
+			"image" : 0,
+			"description" : "Thankfully with reduced overall mass you are able to avoid the grasp of the black hole.",
+			"responses" : ["Ok"],
+			"resolutions" : [-1]
+		},
+		{
+			"title" : "Move on",
+			"image" : 0,
+			"description" : "You decide not to settle this world, hoping to find something more suitable in the future.",
+			"responses" : ["Ok"],
+			"resolutions" : [-1]
+		},
+		{
+			"title" : "Harvesting minerals",
+			"image" : 0,
+			"description" : "With some precision cutting and careful maneuvering you are able to draw many precious resources from the asteroid belt.",
+			"responses" : ["Great!"],
+			"resolutions" : [-1],
+			"loot": ["materials","materials","fuel","fuel"]
+		},
+		{
+			"title" : "It's a fiasco",
+			"image" : 0,
+			"description" : "The ship lacks the combination of maneuverability and precision weaponry to harvest any useful materials, several small rocks collide with the ship dealing some damage.",
+			"responses" : ["Continue"],
+			"resolutions" : [-1]
+		},
+		{
+			"title" : "Target destroyed.",
+			"image" : 0,
+			"description" : "The helpless ship does not seem to sense your arrival and you destroy it before it can react. It explodes with a flash of green light. Somewhere in the pit of your stomach, you have a very dark feeling.",
+			"responses" : ["Continue"],
+			"resolutions" : [-1],
+			"loot": ["materials","materials","fuel","food","colonists","warpdrive"]
+		},
+	]
+}
+

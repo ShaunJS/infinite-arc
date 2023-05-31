@@ -1,0 +1,118 @@
+{
+	"artifact" :{
+		"name" : "The Artifact",
+		"image" : 0,
+		"description" : "for when all else fails...",
+		"hpmax" : -1,
+		"nomove" : true
+	},
+	"thruster" :{
+		"name" : "Basic Thrusters",
+		"image" : 1,
+		"description" : "Increases local system speed & evasion.",
+		"hpmax" : -1,
+		"canrepair": true,
+		"speedlocal" : 5,
+	},
+	"you" :{
+		"name" : "You",
+		"image" : 3,
+		"description" : "Entrusted with finding a new home for humanity, the only one who knows how the Artifact operates.",
+		"hpmax" : -1,
+		"crew": 1,
+		"foodconsumption": 1,
+		"nomove" : true
+	},
+	"crewmember" :{
+		"name" : "Crewmember",
+		"image" : 13,
+		"description" : "Part of the ship's operational crew, improves effectiveness at various different tasks.",
+		"hpmax" : -1,
+		"foodconsumption": 1,
+		"crew": 1
+	},
+	"colonists" :{
+		"name" : "Colonists",
+		"image" : 2,
+		"description" : "Hibernating in long term cryostasis, these helpless last survivors of the human race are trusting you to guide them to a new future.",
+		"tooltip" : "Affects score.",
+		"hpmax" : 200,
+	},
+	"food" :{
+		"name" : "Food",
+		"image" : 4,
+		"description" : "While not required by those in cryostasis, yourself and the crew need regular sustenance.",
+		"tooltip" : "Consumed by crew, affects score.",
+		"hpmax" : 20
+	},
+	"fuel" :{
+		"name" : "Warp Fuel",
+		"image" : 6,
+		"description" : "Powers the warp drive, and most of the ships systems. Run out and you'll be left adrift in space.",
+		"tooltip" : "Consumed by travel and ship components.",
+		"hpmax" : 20,
+		"fuelamount" : 1
+	},
+	"warpdrive" :{
+		"name" : "Warpdrive",
+		"image" : 5,
+		"description" : "Allows you to travel the huge distances between solar bodies. Without this there is no hope.",
+		"tooltip" : "Consumed by travel and ship components.",
+		"speedwarp" : 3,
+		"canrepair": true,
+		"fuelconsumption" : 1,
+		"hpmax" : -1
+	},
+	"hullplate" :{
+		"name" : "Hull Plating",
+		"hpmax" : -1,
+		"image" : 7,
+		"canrepair": true,
+		"description" : "Offers some protection from collisions, projectile weaponry and other physical hazards.",
+		"tooltip" : "Increases armour by 2",
+		"armour" : 2
+	},
+	"shieldmodule" :{
+		"name" : "Shield Module",
+		"hpmax" : -1,
+		"image" : 8,
+		"canrepair": true,
+		"description" : "Takes time to recharge, but offers a first line of defense against energy weapons and most other hazards.",
+		"tooltip" : "Increases shields by 500, also increases recharge rate",
+		"shieldsmax" : 500,
+		"rechargecost" : 1
+	},
+	"basiclaser" :{
+		"name" : "Lasers",
+		"hpmax" : -1,
+		"image" : 9,
+		"canrepair": true,
+		"description" : "Useful for cutting, shooting, vaporizing. Strong versus hull plating.",
+		"tooltip" : "",
+		"attackenergy" : 5,
+	},
+	"basicslugs" :{
+		"name" : "Slug cannon",
+		"hpmax" : -1,
+		"image" : 10,
+		"canrepair": true,
+		"description" : "Good old fashioned force. Strong versus shields.",
+		"tooltip" : "",
+		"attackphysical" : 5,
+	},
+	"materials" :{
+		"name" : "Materials",
+		"hpmax" : 100,
+		"image" : 11,
+		"description" : "Scrap and other useful metals and material, used for repairing damage",
+		"tooltip" : "",
+		"attackphysical" : 5,
+	},
+	"probe" :{
+		"name" : "Probes",
+		"image" : 12,
+		"description" : "Launched bravely to report vital information on nearby systems, planets and anomalies.",
+		"tooltip" : "",
+		"hpmax" : 2
+	}
+}

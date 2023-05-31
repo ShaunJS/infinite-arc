@@ -1,0 +1,12 @@
+socket = 0;
+highlighted = false;
+grabbing = 0;
+image_speed = 0;
+image_index = 0;
+if (bin) image_index = 1;
+xTo = x;
+yTo = y;
+curve = -1;
+entryTime = 0;
+entryCurrent = 0;
+goAway = false;
